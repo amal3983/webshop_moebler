@@ -1,5 +1,5 @@
-#Paztel - Webshop
-##Michelle, Sean & Amalie
+# Paztel - Webshop
+## Michelle, Sean & Amalie
 
 
 * One Page
