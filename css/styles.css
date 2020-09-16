@@ -346,7 +346,7 @@ main h2{
     display: flex;
     justify-content: center;
     align-items: baseline;
-    margin: 30px 0px 30px;
+    margin: 30px 0 30px;
     color: #69696e;
     font-size: 40px;
     text-decoration: none;
@@ -358,6 +358,14 @@ main h2{
     list-style-type: none;
     text-decoration: none;
     color: #69696e;
+}
+
+.soMe-Icons a{
+    color: #d69094;
+}
+
+.soMe-Icons a:hover{
+    color: #63a8bc;
 }
 
 /*Mail Subscribe Start*/
@@ -453,6 +461,7 @@ footer input{
 
 .footer-list3 a{
     text-decoration: none;
+    text-align: center;
     color: #69696e;
     display: block;
     padding: 3px;
@@ -472,10 +481,10 @@ footer input{
     text-decoration: none;
     display: flex;
     padding: 5px;
-
 }
 
-.btm_etc a{
+.btm_etc li{
+
     margin: 5px;
     text-decoration: none;
     color: #69696e;
@@ -484,6 +493,16 @@ footer input{
     padding-left: 100px;
 }
 
+.btm_etc a{
+    color: #69696e;
+    text-decoration: none;
+}
+
+.btm_etc a:hover{
+    margin: 5px;
+    text-decoration: none;
+    color: #63a8bc;
+}
 /*bottom bar end/*
 
 
