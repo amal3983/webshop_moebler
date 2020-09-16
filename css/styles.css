@@ -71,11 +71,11 @@ nav ul {
 
 }
 
-ul:first-child {
+nav ul:first-child {
     width: 70%;
 }
 
-ul:last-child {
+nav ul:last-child {
     width: 30%;
     justify-content: flex-end;
 }
@@ -384,28 +384,31 @@ footer input{
 }
 /*Mail Subscribe End*/
 
+.soMe-Icons {
+    padding: 0 20px;
+}
 
 .footer-list {
     background: #f7f8f3;
     display: flex;
-    flex-direction: column;
+    padding: 40px 100px;
+    justify-content: space-between;
 }
-
+.footer-item {
+    padding: 0 30px;
+}
 .footer_menu{
-    margin: 0 1px
+    margin: 0;
 }
 
 .footer-list1 ul{
 
     list-style-type: none;
     padding: 0;
-
-
-
 }
 
 .footer-list1 a{
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: #69696e;
     display: block;
@@ -450,7 +453,6 @@ footer input{
 
 .footer-list3 a{
     text-decoration: none;
-    text-align: center;
     color: #69696e;
     display: block;
     padding: 3px;
@@ -468,10 +470,12 @@ footer input{
     list-style-type: none;
     color: #69696e;
     text-decoration: none;
+    display: flex;
+    padding: 5px;
+
 }
 
-.btm_etc li{
-
+.btm_etc a{
     margin: 5px;
     text-decoration: none;
     color: #69696e;
@@ -479,6 +483,7 @@ footer input{
 .bottomRow p {
     padding-left: 100px;
 }
+
 /*bottom bar end/*
 
 
