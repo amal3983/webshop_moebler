@@ -107,7 +107,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #d69094;
+    color: #63a8bc;
 
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -115,13 +115,6 @@ nav a:hover {
     transition: all 0.3s ease;
 }
 
-.logo a {
-    color: #d69094;
-}
-
-.logo a:hover {
-    color: #69696e;
-}
 
 
 header {
@@ -129,7 +122,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    color: #789fb0;
+    color: #d69094;
     padding: 200px;
 }
 
