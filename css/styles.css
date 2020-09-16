@@ -68,9 +68,10 @@ main h2{
 
 .gridbox {
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
-    grid-column-gap: 15px;
-    margin: 70px;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 32px;
+    grid-row-gap: 33px;
+    margin: 45px;
     border: black solid 2px;
 }
 .productbox {
@@ -78,5 +79,9 @@ main h2{
 }
 
 .productpic {
-    text-align: center;
+    max-height: 300px;
+}
+.productinfo{
+    height: 30px;
+    background-color: darkseagreen;
 }
