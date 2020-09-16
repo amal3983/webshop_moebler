@@ -126,28 +126,26 @@ header {
     padding: 200px;
 }
 
-header span, header button {
-    text-transform: uppercase;
-}
-
 header h1 {
     font-size: 70px;
+    margin-bottom: 35px;
 }
 
 header span {
     font-size: 40px;
+    text-transform: uppercase;
 }
 
-header button {
-    margin-top: 35px;
+header button, .product button {
     padding: 15px 70px;
     background-color: #69696e;
     border: 0;
     color: white;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
-header button:hover {
+header button:hover, .product button:hover {
     background-color: #404043;
     cursor: pointer;
 
@@ -155,6 +153,118 @@ header button:hover {
 
 
 /* MENU + HEADER SLUT */
+
+
+/* PRODUCT */
+
+.product {
+    color: #69696e;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.p_img {
+    width: 60%;
+    background-color: lightgray;
+}
+
+.p_info {
+    width: 35%;
+    height: 100%;
+}
+
+.product h1 {
+    font-size: 40px;
+}
+
+.product h1 {
+    margin-bottom: 25px;
+}
+
+.p_price {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #d69094;
+    clear: both;
+}
+
+.p_text {
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.p_add {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.favorite {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.favorite:hover {
+    color: #d69094;
+    cursor: pointer;
+}
+
+.p_delivery {
+    margin: 35px 0 15px 0;
+    border: lightgray 1px solid;
+    padding: 25px;
+}
+
+hr {
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+.p_delivery .fa-truck {
+    padding: 5px 0 20px 0;
+    font-size: 25px;
+    color: #63a8bc;
+    width: 100%;
+}
+
+.p_standard {
+    margin: 5px 0 15px 0;
+}
+
+.p_policy {
+    margin: 30px 0 5px 0;
+    font-weight: bold;
+}
+
+.p_delivery .fa-undo {
+    margin-right: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.details p, .details i {
+    width: 50%;
+    padding: 15px 0;
+}
+
+.details i {
+    text-align: right;
+    font-size: 25px;
+}
+
+.details i:hover {
+    color: #d69094;
+    cursor: pointer;
+}
+
+/* PRODUCT SLUT */
 
 
 
