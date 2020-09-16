@@ -299,7 +299,6 @@ main h2{
 
 .popular-item:hover {
     color: #63a8bc;
-    text-decoration: underline;
 
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -311,24 +310,24 @@ main h2{
     text-decoration: underline;
 }
 
-
 .gridbox {
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
     grid-column-gap: 32px;
-    grid-row-gap: 33px;
+    grid-row-gap: 40px;
     margin: 45px;
-    border: black solid 2px;
 }
-.productbox {
-    border: black solid 2px;
+.gridbox a {
+    text-decoration: none;
+    color: black;
 }
-
 .productpic {
     max-height: 300px;
 }
 .productinfo{
-    height: 30px;
-    background-color: darkseagreen;
+    height: 70px;
+    background-color: #bcd7df;
+    line-height: 30px;
+    padding: 5px 20px;
 }
 /* GRID SLUT */
