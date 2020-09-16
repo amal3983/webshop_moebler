@@ -168,7 +168,10 @@ header span {
 
 .p_img {
     width: 60%;
-    background-color: lightgray;
+    background-image: url("../img/oak_wooden_chair.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .p_info {
