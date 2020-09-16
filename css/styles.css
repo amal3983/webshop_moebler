@@ -360,6 +360,14 @@ main h2{
     color: #69696e;
 }
 
+.soMe-Icons a{
+    color: #d69094;
+}
+
+.soMe-Icons a:hover{
+    color: #63a8bc;
+}
+
 /*Mail Subscribe Start*/
 footer button{
     margin-top: 35px;
@@ -388,7 +396,7 @@ footer input{
 .footer-list {
     background: #f7f8f3;
     display: flex;
-    flex-direction: column;
+
 }
 
 .footer_menu{
@@ -478,6 +486,17 @@ footer input{
 }
 .bottomRow p {
     padding-left: 100px;
+}
+
+.btm_etc a{
+    color: #69696e;
+    text-decoration: none;
+}
+
+.btm_etc a:hover{
+    margin: 5px;
+    text-decoration: none;
+    color: #63a8bc;
 }
 /*bottom bar end/*
 
