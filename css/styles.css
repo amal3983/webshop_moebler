@@ -315,7 +315,7 @@ main h2{
     grid-template-columns: 23% 23% 23% 23%;
     grid-column-gap: 32px;
     grid-row-gap: 40px;
-    margin: 45px;
+    margin: 30px 0 100px;
 }
 .gridbox a {
     text-decoration: none;
@@ -324,10 +324,13 @@ main h2{
 .productpic {
     max-height: 300px;
 }
+.productpic img {
+    text-align: center;
+}
 .productinfo{
     height: 70px;
-    background-color: #bcd7df;
     line-height: 30px;
     padding: 5px 20px;
+    background-color: #bcd7df;
 }
 /* GRID SLUT */
