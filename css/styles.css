@@ -47,6 +47,8 @@ img {
 
 
 
+
+
 /* MENU + HEADER */
 
 nav {
@@ -273,9 +275,10 @@ hr {
 
 
 
-
+/* GRID START */
 main h2{
     text-align: center;
+    margin: 70px 0 35px;
 }
 .choice {
     color: gray;
@@ -289,9 +292,12 @@ main h2{
     margin: 20px;
     padding-left: 38%;
 }
-.furniture {
-    color: black;
-    text-decoration: underline black;
+.popular-type li{
+    list-style: none;
+}
+
+.item_menu {
+    margin: 20px;
 }
 
 
@@ -314,3 +320,4 @@ main h2{
     height: 30px;
     background-color: darkseagreen;
 }
+/* GRID SLUT */
