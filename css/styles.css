@@ -45,13 +45,13 @@ img {
 }
 
 
+
+/* GRID SLUT */
 main h2{
     text-align: center;
+    margin: 70px 0 35px;
 }
-.choice {
-    color: gray;
-    margin: 10px;
-}
+
 .popular-type:hover {
     color: #2e2e2e;
 }
@@ -60,9 +60,12 @@ main h2{
     margin: 20px;
     padding-left: 38%;
 }
-.furniture {
-    color: black;
-    text-decoration: underline black;
+.popular-type li{
+    list-style: none;
+}
+
+.item_menu {
+    margin: 20px;
 }
 
 
@@ -85,3 +88,4 @@ main h2{
     height: 30px;
     background-color: darkseagreen;
 }
+/* GRID SLUT */
