@@ -504,30 +504,41 @@ footer input{
     list-style-type: none;
     color: #69696e;
     text-decoration: none;
+    justify-content: space-between;
     display: flex;
-    padding: 5px;
+    padding: 20px 250px 20px 250px;
 }
 
-.btm_etc li{
+.buttomRow_Items {
+    display: flex;
+}
 
-    margin: 5px;
+.btm_etc {
+    margin: 0 10px;
     text-decoration: none;
     color: #69696e;
 }
-.bottomRow p {
-    padding-left: 100px;
-}
-
 .btm_etc a{
     color: #69696e;
     text-decoration: none;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .btm_etc a:hover{
-    margin: 5px;
     text-decoration: none;
     color: #63a8bc;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
+
+
 /*bottom bar end/*
 
 
