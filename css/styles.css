@@ -331,14 +331,31 @@ main h2{
     text-align: center;
 }
 .productpic:hover {
-    background-color: rgba(0,0,0,100);
-    backdrop-filter: invert(60%);
+    opacity: 30%;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.productinfo:hover {
+    padding-left: 50px;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 .productinfo{
     height: 80px;
     line-height: 32px;
     padding: 15px 20px;
     background-color: #bcd7df;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 /* GRID SLUT */
 
