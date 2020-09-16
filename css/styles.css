@@ -6,7 +6,7 @@
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
 body {
-    margin: 0; /* Ingen kanter i siden af browser */
+    margin: 0 5%; /* HVIDE KANTER I SIDERNE */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,3 +43,123 @@ img {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+
+
+
+/* MENU + HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0;
+    font-size: 18px;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+ul:first-child {
+    width: 70%;
+}
+
+ul:last-child {
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10% 0 30px !important;
+}
+
+.menu_sites {
+    margin: 0 20px !important;
+}
+
+.menu_icons {
+    margin: 0 15px !important;
+}
+
+.menu_icons:last-child {
+    margin-right: 30px !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: #69696e;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #d69094;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.logo a {
+    color: #d69094;
+}
+
+.logo a:hover {
+    color: #69696e;
+}
+
+
+header {
+    background-image: url("../img/headerbg_lamp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #789fb0;
+    padding: 250px;
+}
+
+header h1, header span, header button {
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+header span {
+    font-size: 40px;
+}
+
+header button {
+    margin-top: 35px;
+    padding: 15px 70px;
+    background-color: #69696e;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+header button:hover {
+    background-color: #404043;
+    cursor: pointer;
+
+}
+
+
+/* MENU + HEADER SLUT */
+
