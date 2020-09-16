@@ -280,24 +280,35 @@ main h2{
     text-align: center;
     margin: 70px 0 35px;
 }
-.choice {
-    color: gray;
-    margin: 10px;
-}
-.popular-type:hover {
-    color: #2e2e2e;
-}
 .popular-type {
     display: flex;
-    margin: 20px;
-    padding-left: 38%;
+    justify-content: center;
+
 }
-.popular-type li{
-    list-style: none;
+.popular-item {
+    margin: 0 10px 0 10px;
+    color: #69696e;
+    text-decoration: none;
+    font-size: 17px;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.item_menu {
-    margin: 20px;
+.popular-item:hover {
+    color: #63a8bc;
+    text-decoration: underline;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.furnitures {
+    color: black;
+    text-decoration: underline;
 }
 
 
