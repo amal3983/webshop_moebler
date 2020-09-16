@@ -128,7 +128,7 @@ header {
 
 header h1 {
     font-size: 70px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 header span {
@@ -136,16 +136,18 @@ header span {
     text-transform: uppercase;
 }
 
-header button, .product button {
+.button, .product button {
     padding: 15px 70px;
     background-color: #69696e;
     border: 0;
+    font-size: 15px;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-header button:hover, .product button:hover {
+.button:hover, .product button:hover {
     background-color: #404043;
     cursor: pointer;
 
