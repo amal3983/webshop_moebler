@@ -391,10 +391,20 @@ footer {
 
 .soMe-Icons a{
     color: #d69094;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .soMe-Icons a:hover{
     color: #63a8bc;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 /*Mail Subscribe Start*/
