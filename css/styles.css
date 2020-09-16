@@ -388,9 +388,11 @@ footer input{
 .footer-list {
     background: #f7f8f3;
     display: flex;
-    flex-direction: column;
+    padding: 40px 100px;
 }
-
+.footer-item {
+    padding: 0 30px;
+}
 .footer_menu{
     margin: 0 1px
 }
@@ -399,9 +401,6 @@ footer input{
 
     list-style-type: none;
     padding: 0;
-
-
-
 }
 
 .footer-list1 a{
@@ -468,13 +467,18 @@ footer input{
     list-style-type: none;
     color: #69696e;
     text-decoration: none;
+    display: flex;
+    padding: 5px;
+
 }
 
-.btm_etc li{
-
+.btm_etc a{
     margin: 5px;
     text-decoration: none;
     color: #69696e;
+}
+.bottomRow p {
+    padding-left: 100px;
 }
 /*bottom bar end/*
 
