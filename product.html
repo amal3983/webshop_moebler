@@ -1,0 +1,124 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Paztel</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <!-- Font Awesome link -->
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+<body>
+
+<!--   MENU + HERO   -->
+<nav>
+
+    <ul>
+        <li class="logo"><a href="index.html">paztel</a></li>
+        <li class="menu_sites"><a href="index.html">Home</a></li>
+        <li class="menu_sites"><a href="#">Shop</a></li>
+        <li class="menu_sites"><a href="#">Blog</a></li>
+        <li class="menu_sites"><a href="#">About us</a></li>
+        <li class="menu_sites"><a href="#">Contact us</a></li>
+    </ul> <!-- Menupunkter -->
+
+    <ul>
+        <li class="menu_icons"><a href="#"><i class="fas fa-search"></i></a></li>
+        <li class="menu_icons"><a href="#"><i class="fas fa-user"></i></a></li>
+        <li class="menu_icons"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+    </ul> <!-- Ikoner -->
+</nav>
+
+
+<!--   MENU + HERO SLUT   -->
+
+
+<section class="product">
+
+    <div class="p_img">
+
+    </div>
+
+    <div class="p_info">
+        <h1>Oak Wooden Chair</h1>
+        <span class="p_price">$55.00</span>
+
+
+        <p class="p_text">Maecenas condimentum, nulla quis vestibulum faucibus, dolor orci lobortis urna, vel fringilla
+            turpis erat
+            quis neque. Aliquam id mollis ex, id viverra nisl. Suspendisse blandit aliquet nisl.</p>
+
+
+
+
+        <div class="p_add">
+            <button class="transition">Add to cart</button>
+            <span class="favorite transition"><i class="far fa-heart"></i></span>
+        </div>
+
+        <div class="p_delivery">
+
+            <i class="fas fa-truck"></i>
+
+            <b>25. september - 27. september</b>
+            <p class="p_standard">Standard delivery</p>
+
+            <hr>
+
+            <p class="p_policy"><i class="fas fa-undo"></i> 100 days return policy </p>
+
+        </div>
+
+        <div class="details">
+
+            <p>Product details</p> <i class="fas fa-angle-down transition"></i>
+            <hr>
+            <p>Packaging</p> <i class="fas fa-angle-down transition"></i>
+            <hr>
+            <p>Product size</p> <i class="fas fa-angle-down transition"></i>
+            <hr>
+
+
+        </div>
+
+
+    </div>
+
+
+
+</section>
+
+
+<footer></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+    $(function () {
+
+    });
+
+
+</script>
+
+</body>
+</html>
