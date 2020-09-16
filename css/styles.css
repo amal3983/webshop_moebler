@@ -48,17 +48,35 @@ img {
 main h2{
     text-align: center;
 }
+.choice {
+    color: gray;
+    margin: 10px;
+}
+.popular-type:hover {
+    color: #2e2e2e;
+}
 .popular-type {
     display: flex;
-    margin: 10px;
-    padding: 3px;
-    text-align: center;
+    margin: 20px;
+    padding-left: 38%;
 }
+.furniture {
+    color: black;
+    text-decoration: underline black;
+}
+
 
 .gridbox {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 10px;
-    margin: 80px;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 15px;
+    margin: 70px;
     border: black solid 2px;
+}
+.productbox {
+    border: black solid 2px;
+}
+
+.productpic {
+    text-align: center;
 }
