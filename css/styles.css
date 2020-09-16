@@ -6,6 +6,10 @@
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
 body {
+    margin: 0;
+}
+
+#wrapper {
     margin: 0 5%; /* HVIDE KANTER I SIDERNE */
 }
 
@@ -341,11 +345,13 @@ main h2{
 /*--------------------------- Footer Start --------------------------- */
 
 
+footer {
+    margin-top: 150px;
+}
 
 .mailSoMe{
     display: flex;
     justify-content: center;
-    align-items: baseline;
     margin: 30px 0 30px;
     color: #69696e;
     font-size: 40px;
@@ -357,6 +363,7 @@ main h2{
     justify-content: space-evenly;
     list-style-type: none;
     text-decoration: none;
+    align-items: flex-end;
     color: #69696e;
 }
 
@@ -399,14 +406,15 @@ footer input{
 .footer-list {
     background: #f7f8f3;
     display: flex;
-    padding: 40px 100px;
+    padding: 70px 250px 50px 250px;
     justify-content: space-between;
 }
 .footer-item {
     padding: 0 30px;
 }
 .footer_menu{
-    margin: 0;
+    margin-left:-12px;
+    padding: 5px 0;
 }
 
 .footer-list1 ul{
